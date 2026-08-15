@@ -1353,7 +1353,7 @@ window.DASHBOARD_DATA = {
             {
               text: "持續整合（CI）",
               desc: "每次要合併的改動都先通過自動化驗證，一次都不漏掉。",
-              done: false,
+              done: true,
             },
             {
               text: "持續交付（CD）",

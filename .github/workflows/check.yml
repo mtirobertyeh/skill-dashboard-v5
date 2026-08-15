@@ -5,4 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - run: node --check data.js
+      - name: 語法檢查
+        run: node --check data.js
+      - name: 結構檢查
+        run: node check-data.js
